@@ -1,21 +1,21 @@
 # StackX-Organizacoo-Banco-de-Dados
 
 # 1.Tabela `Usuarios`
-Armazena informações dos usuários, que podem ser tanto administrador quanto usuarios normais “hóspedes”.
+Armazena informações dos usuários, que podem ser tanto administrador quanto usuarios normais “hóspedes”. </b>
 
-CREATE TABLE Usuarios
-        (
-        	id_aluno int PRIMARY KEY NOT NULL,
-        	nome varchar(100) NOT NULL,
-            email  varchar(30) NOT NULL,
-        	senha varchar(50) NOT NULL,
-        	sexo varchar(1) NOT NULL,
-        	data_cadastro datetime NOT NULL,
-        	tipo_usuario enum NOT NULL
-        );
+CREATE TABLE Usuarios</b>
+        (</b>
+        	id_aluno int PRIMARY KEY NOT NULL,</b>
+        	nome varchar(100) NOT NULL,</b>
+            email  varchar(30) NOT NULL,</b>
+        	senha varchar(50) NOT NULL,</b>
+        	sexo varchar(1) NOT NULL,</b>
+        	data_cadastro datetime NOT NULL,</b>
+        	tipo_usuario enum NOT NULL</b>
+        );</b>
 
 A tabela `Usuarios` é fundamental para armazenar dados de identificação e tipo de usuário, já que os mesmos podem ser tanto admin quanto hóspedes. 
-O tipo de usuário ajuda a diferenciar permissões e recursos oferecidos.
+O tipo de usuário ajuda a diferenciar permissões e recursos oferecidos.</b></b>
 
 # 2. Tabela `Lugares_para_se_hospedar`
 Armazena os lugares disponíveis para hospedagem, com informações detalhadas sobre o local.
